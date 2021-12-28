@@ -9,4 +9,11 @@
   text-align: center;
   padding-top: 32px;
   align-self: center;
+  position: relative;
+  color: #fff;
+  z-index: 4;
+}
+
+.cover__subtitle:hover {
+  color: #dadada;
 }
