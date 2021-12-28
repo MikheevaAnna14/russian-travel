@@ -1,0 +1,9 @@
+.cover__background {
+  width: 1184px;
+  height: 740px;
+  background-image: url(../../../images/background.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}

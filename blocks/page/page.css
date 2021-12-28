@@ -1,0 +1,11 @@
+.page {
+  width: 1280px;
+  min-height: 6875px;
+  font-family: 'inter', Arial, sans-serif;
+  background-color: #2A2C2F;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
