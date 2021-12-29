@@ -2,6 +2,7 @@
   width: 984px;
   height: 615px;
   background-image: url(../../../images/kalegin-michail-179870-unsplash.png);
+  background-size: contain;
   display: flex;
   justify-content: center;
 }

@@ -1,10 +1,17 @@
 .lead {
-  width: 984px;
-  height: 1005px;
+  max-width: 984px;
+  min-height: 1005px;
   display: flex;
   flex-direction: column;
   padding-top: 56px;
   color: #fff;
   justify-content: start;
   align-items: center;
+}
+
+@media screen and (max-width: 1270px) {
+  .lead {
+    max-width: 90.6%;
+    min-height: 962px;
+  }
 }
