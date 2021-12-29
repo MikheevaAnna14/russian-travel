@@ -13,3 +13,19 @@
     gap: 14px;
   }
 }
+
+@media screen and (max-width: 1010px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 352px);
+    grid-template-rows: repeat(6, 264px);
+    gap: 16px;
+    padding-top: 88px;
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    grid-template-columns: 288px;
+    grid-template-rows: repeat(12, 216px);
+    gap: 12px;
+    padding-top: 64px;
+}

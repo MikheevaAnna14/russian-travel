@@ -8,6 +8,25 @@
 
 @media screen and (max-width: 1270px) {
   .footer {
-    max-width: 90.6%;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .footer {
+    max-width: 720px;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    max-width: 186px;
+    height: 310px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: start;
+    padding-left: 16px;
+    padding-top: 64px;
   }
 }

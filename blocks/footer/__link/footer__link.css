@@ -14,3 +14,12 @@
   transition-property: color;
   transition: ease-in-out 0.5s;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    display: flex;
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 32px;
+  }
+}

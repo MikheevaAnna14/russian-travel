@@ -16,8 +16,40 @@
 
 @media screen and (max-width: 1270px) {
   .place {
-    width: 72.5%;
+    width: 928px;
     grid-template-columns: 440px 456px;
     gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .place {
+    width: 720px;
+    grid-template-columns: 340px 352px;
+    gap: 48px 28px;
+    padding-bottom: 73px;
+  }
+
+  .place:last-child {
+    padding-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    width: 320px;
+    grid-template-columns: 320px;
+    grid-template-areas:
+    "place__title"
+    "place__website"
+    "place__image" 
+    "place__paragraphs";
+    gap: 32px;
+    padding-bottom: 50px;
+    justify-items: center;
+  }
+
+  .place:last-child {
+    padding-bottom: 66px;
   }
 }

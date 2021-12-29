@@ -17,3 +17,16 @@
     max-width: 456px;
   }
 }
+
+@media screen and (max-width: 1010px) {
+  .place__paragraph {
+    max-width: 352px;
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    max-width: 288px;
+  }
+}

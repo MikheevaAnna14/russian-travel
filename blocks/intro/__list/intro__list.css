@@ -9,3 +9,15 @@
   margin: 0;
   list-style: none;
 }
+
+@media screen and (max-width: 1010px) {
+  .intro__list {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__list {
+    width: 288px;
+  }
+}
