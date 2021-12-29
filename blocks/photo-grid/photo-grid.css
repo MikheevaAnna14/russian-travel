@@ -20,6 +20,7 @@
     grid-template-rows: repeat(6, 264px);
     gap: 16px;
     padding-top: 88px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -28,4 +29,5 @@
     grid-template-rows: repeat(12, 216px);
     gap: 12px;
     padding-top: 64px;
+  }
 }
