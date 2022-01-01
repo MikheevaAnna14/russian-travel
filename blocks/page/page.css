@@ -1,5 +1,5 @@
 .page {
-  width: 1280px;
+  width: 100vw;
   min-height: 6875px;
   font-family: 'inter', Arial, sans-serif;
   background-color: #2A2C2F;
@@ -9,10 +9,3 @@
   flex-direction: column;
   align-items: center;
 }
-
-@media screen and (max-width: 1270px) {
-  .page { 
-    width: 100vw;
-  }
-}
-
