@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1023px) {
   .lead__image {
     width: 768px;
     height: 480px;

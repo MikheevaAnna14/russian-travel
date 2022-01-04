@@ -1,6 +1,5 @@
 .place__url-heading {
   width: 456px;
-  height: 12px;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -11,7 +10,7 @@
   padding-bottom: 12px;
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1023px) {
   .place__url-heading {
     width: 352px;
   }
@@ -20,6 +19,5 @@
 @media screen and (max-width: 767px) {
   .place__url-heading {
     width: 288px;
-    line-height: 20.4px;
   }
 }

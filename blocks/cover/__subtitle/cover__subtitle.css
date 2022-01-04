@@ -1,6 +1,5 @@
 .cover__subtitle {
   width: 360px;
-  height: 66px;
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
@@ -14,15 +13,11 @@
   z-index: 4;
 }
 
-.cover__subtitle:hover {
-  color: #dadada;
-}
-
 @media screen and (max-width: 767px) {
   .cover__subtitle {
     width: 288px;
-    height: 48px;
     font-size: 14px;
     line-height: 16px;
+    padding-top: 16px;
   }
 }

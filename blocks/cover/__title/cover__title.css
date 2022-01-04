@@ -1,6 +1,5 @@
 .cover__title {
   width: 560px;
-  height: 152px;
   font-size: 72px;
   font-weight: 900;
   font-style: normal;
@@ -9,11 +8,6 @@
   text-align: center;
   position: relative;
   z-index: 4;
-
-}
-
-.cover__title:hover {
-  color: #dadada;
 }
 
 @media screen and (max-width: 767px) {
