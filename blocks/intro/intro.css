@@ -1,27 +1,29 @@
 .intro {
+  width: 984px;
+  margin: 0 auto;
   padding-top: 92px;
-  color: #fff;
+  display: flex;
+  flex-direction: column;
   position: relative;
-  right: 147px;
+  color: #fff;
 }
 
 @media screen and (max-width: 1270px) {
   .intro {
-    right: 119px;
+    max-width: 90.6%;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
+    width: auto;
     padding-top: 88px;
-    right: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
     padding-top: 64px;
-    right: 0;
   }
 }
 
