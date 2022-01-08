@@ -1,21 +1,22 @@
 .cover {
-  width: 1184px;
+  width: 100%;
+  max-width: 1184px;
   min-height: 740px;
   display: flex;
   position: relative;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1270px) {
   .cover {
-    width: 1020px;
+    max-width: 1020px;
     min-height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
-    width: 768px;
+    max-width: 768px;
     min-height: 480px;
   }
 }
