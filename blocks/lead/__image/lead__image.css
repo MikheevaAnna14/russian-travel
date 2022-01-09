@@ -3,21 +3,3 @@
   height: 62.5%;
 }
 
-@media screen and (max-width: 1270px) {
-  .lead__image {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .lead__image {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .lead__image {
-    width: 100%;
-  }
-}
-
